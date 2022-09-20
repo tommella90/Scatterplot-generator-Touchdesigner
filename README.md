@@ -1,5 +1,6 @@
 # Scatterplot-generator-Touchdesigner
 Upload csv file and create you scatterplot (no code needed)
+Donwload the toe file [here](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/scatterplot.1.toe)
 
 Here is an example
 https://user-images.githubusercontent.com/66441052/191265558-dd19369e-3599-4255-8cbe-c1befd6b7f8c.mp4
@@ -35,3 +36,13 @@ Choose the folder and save the plot on your choosen format
 - Show ols fitted line by group. If you fit Kmean, you can use it as group 
 - Fit ols after dropping outliers and see how it changes
 
+
+## Here are the scripts
+1) [extension](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/scatter_ext.py)
+   It contains the extension and all the funcionts to make it work
+2) [execute dat](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/ex_dat.py)
+   It triggers the functions on call
+3) [Show details](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/interactive.py) 
+   To apply the interactive *show details* function
+4) [Kmeans table](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/make_table.py)
+   To choose the variablo to apply Kmeans on (to be improved)
