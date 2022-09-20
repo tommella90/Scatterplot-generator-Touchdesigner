@@ -17,6 +17,7 @@ Here you can control
 - Title graph
 - Thicks
 - Labels
+<img align="right" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/main.png">
 
 
 ### 3) ESTETICS
