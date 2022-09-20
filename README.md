@@ -35,3 +35,13 @@ Choose the folder and save the plot on your choosen format
 - Show ols fitted line by group. If you fit Kmean, you can use it as group 
 - Fit ols after dropping outliers and see how it changes
 
+
+## Here are the scripts
+1) [extension](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/scatter_ext.py)
+   It contains the extension and all the funcionts to make it work
+2) [execute dat](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/ex_dat.py)
+   It triggers the functions on call
+3) [Show details](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/interactive.py) 
+   To apply the interactive *show details* function
+4) [Kmeans table](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/make_table.py)
+   To choose the variablo to apply Kmeans on (to be improved)
