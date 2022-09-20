@@ -78,6 +78,7 @@ class scatterPlot:
 		self.size_group = myOp.par.Sizegroup
 		self.color_type = myOp.par.Colortype
 		self.custom_colors = myOp.par.Choosecustomcolors
+		self.name = myOp.par.Name
 	## OUTLIERS
 		self.out_hx = myOp.par.Outlierhighx
 		self.out_lx = myOp.par.Outlierlowx 
@@ -133,6 +134,7 @@ class scatterPlot:
 			BASE.par.Olsoutlierscolorr, BASE.par.Olsoutlierscolorg, BASE.par.Olsoutlierscolorb, BASE.par.Olsoutlierscolora = .6, .6, .6, 0
 			BASE.par.Showgroupols = 0
 			BASE.par.Showolsoutliers = 0
+			BASE.par.Folder, BASE.par.Name, BASE.par.Fileformat = "Myfolder", "Mytitle", "png"
 
 
 	def DefineVariables(self):
@@ -190,6 +192,8 @@ class scatterPlot:
 
 
 	def SaveImage(self):
+		path = os.getcwd()
+
 		## define file format
 		image_saver = op('blueprint/image_saver')
 		if f"{self.frm}" != "jpg": 
@@ -197,7 +201,7 @@ class scatterPlot:
 		elif f"{self.frm}" == "jpg":
 			image_saver.par.imagefiletype = "jpeg"
 
-		file = str(f"{self.folder}" + "/" + f"{self.title}" + f".{self.frm}")
+		file = str(f"{self.folder}" + "/" + f"{self.name}" + f".{self.frm}")
 		file = file.replace("/ ", "\ ")		
 		file = file.replace(" ", "")
 
@@ -206,12 +210,13 @@ class scatterPlot:
 		myDir = myDir.replace("/ ", "\ ")
 		op('directory').par.rootfolder = myDir
 
+
 		mylist = op('directory').col("name")
 		saver = op('blueprint/button_saver')
-		image_saver.par.file = file
+		#image_saver.par.file = file
 
 		if self.save == True:
-			if f"{self.title}" in str(mylist) and self.replace == False:
+			if f"{self.name}" in str(mylist) and self.replace == False:
 				print("FILE ALREADY EXISTS")
 				op('blueprint/image_saver').click()
 			else:
