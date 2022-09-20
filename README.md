@@ -1,5 +1,6 @@
 # Scatterplot-generator-Touchdesigner
 Upload csv file and create you scatterplot (no code needed)
+Donwload the toe file [here](https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/scatterplot.1.toe)
 
 Here is an example
 https://user-images.githubusercontent.com/66441052/191265558-dd19369e-3599-4255-8cbe-c1befd6b7f8c.mp4
