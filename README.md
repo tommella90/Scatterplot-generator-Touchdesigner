@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/66441052/191265558-dd19369e-3599-4255-
 - Plot the ols fitted line and choose your colors
 - Drop from the graph the outliers to see how it looks like
 
-<img align="right" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/main.png">
+<img align="center" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/main.png">
 
 ### 2) LABELS AND THICKS
 Here you can control
@@ -19,7 +19,7 @@ Here you can control
 - Thicks
 - Labels
 
-<img align="right" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/colors.png">
+<img align="center" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/colors.png">
 
 ### 3) ESTETICS
 - Background color
@@ -28,19 +28,19 @@ Here you can control
 - Show details: open an interactive graph displaying the variable of interest on touch
 - Legend
 
-<img align="right" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/colors2.png">
+<img align="center" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/colors2.png">
 
 ### 4) SAVER
 Choose the folder and save the plot on your choosen format
 
-<img align="right" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/estimation.png">
+<img align="center" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/estimation.png">
 
 ### 5) ESTIMATIONS 
 - Fit Kmeans and use it as color group. You can choose the variables to fit (by default all the numerical ones) and the number of K.
 - Show ols fitted line by group. If you fit Kmean, you can use it as group 
 - Fit ols after dropping outliers and see how it changes
 
-<img align="right" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/estim1.png">
+<img align="center" width="400" height="400" src="https://github.com/tommella90/Scatterplot-generator-Touchdesigner/blob/main/img/estim1.png">
 
 
 ## Here are the scripts
